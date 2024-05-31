@@ -1,6 +1,6 @@
 import * as webllm from "@mlc-ai/web-llm";
 
-const STREAM = true
+const STREAM = false
 
 function setLabel(id: string, text: string) {
   const label = document.getElementById(id)
